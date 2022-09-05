@@ -1,0 +1,72 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Admin</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="~/Content/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/css/slider.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="~/Content/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/startstop-slider.js"></script>
+    <script src="~/Content/js/ShowImage.js"></script>
+</head>
+<body>
+<!-- Begin Wrap -->
+<div class="wrap">
+	<!-- Begin Header -->
+	@Html.Partial("Header_Admin")
+    <!-- End Header -->
+    <!-- Begin Main -->
+    <div class="main">
+    @RenderBody()
+	</div>
+    <!-- End Main -->
+</div>
+<!-- End Wrap -->
+<!-- Begin Footer -->
+<div class="footer">
+   	  <div class="wrap">	
+	     <div class="section group">
+				<div class="col_1_of_4 span_1_of_4">
+						<h4>Information</h4>
+						<ul>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="contact.html">Customer Service</a></li>
+						<li><a href="#">Advanced Search</a></li>
+					
+						</ul>
+					</div>
+				<div class="col_1_of_4 span_1_of_4">
+					<h4>Why buy from us</h4>
+						<ul>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="contact.html">Customer Service</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+					
+						</ul>
+				</div>
+				<div class="col_1_of_4 span_1_of_4">
+					<h4>My account</h4>
+						<ul>
+							<li><a href="contact.html">Sign In</a></li>
+							<li><a href="index.html">View Cart</a></li>
+							<li><a href="#">My Wishlist</a></li>
+							
+						</ul>
+				</div>
+				<div class="col_1_of_4 span_1_of_4">
+					<h4>Contact</h4>
+						<ul>
+							<li><span>+91-123-456789</span></li>
+							<li><span>+00-123-000000</span></li>
+						</ul>
+				</div>
+			</div>			
+        </div>
+</div>
+<!-- End Footer -->
+</body>
+</html>
+
